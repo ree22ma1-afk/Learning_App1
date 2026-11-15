@@ -1,17 +1,15 @@
-//
-//  Learning_AppApp.swift
-//  Learning_App
-//
-//  Created by Reema Alsahali  on 01/06/1448 AH.
-//
-
 import SwiftUI
 
 @main
 struct Learning_AppApp: App {
+    // نسوي الـ ViewModel مرة وحدة هنا وننشره لكل الشاشات
+    @StateObject private var vm = LearningViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(vm)
+                .preferredColorScheme(.dark)   // الدارك مود
         }
     }
 }

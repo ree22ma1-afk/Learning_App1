@@ -1,24 +1,19 @@
-//
-//  ContentView.swift
-//  Learning_App
-//
-//  Created by Reema Alsahali  on 01/06/1448 AH.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var vm: LearningViewModel
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if vm.hasOnboarded {
+            ActivityView()
+        } else {
+            OnboardingView()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(LearningViewModel())
+        .preferredColorScheme(.dark)
 }
