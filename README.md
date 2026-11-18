@@ -19,6 +19,12 @@ In the current build, users can:
 
 ## Screenshots
 
+<img width="1206" height="2622" alt="Screenshot iPhone 17 07-06-1448 AH at 11 02 06 AM" src="https://github.com/user-attachments/assets/a7106507-32d8-40c9-b49f-0821d49c06fb" />
+<img width="1206" height="2622" alt="Screenshot iPhone 17 07-06-1448 AH at 10 57 56 AM" src="https://github.com/user-attachments/assets/c60b5ea9-402c-4351-8e03-f1cc5c69b101" />
+<img width="1206" height="2622" alt="Screenshot iPhone 17 07-06-1448 AH at 10 57 18 AM" src="https://github.com/user-attachments/assets/2068c2c2-f8ae-4f0d-b17d-aaaee048828e" />
+
+
+
 
 
 - Swift
@@ -61,4 +67,4 @@ Learning_App
 
 Reema Alsahali
 
-Reema Alsahali
+
